@@ -9,4 +9,4 @@ function ButtonComponent(props) {
   );
 }
 
-export default React.memo(ButtonComponent);
+export default React.memo(ButtonComponent); ///React.Memo  is a higher order component is a  which prevents a function component from being rendered if its props or states does not change.
